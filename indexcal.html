@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="EUC-KR">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id="userWant">
+    <div class="labalAndInput">
+      <label for="pageWidth">페이지 넓이</label>
+      <div class="inputDev">
+        <input type="number" name="pageWidth" class="inputNum" id="pageWidth" placeholder="원하는 페이지 넓이">
+        <!-- <ul>
+          <li>px</li>
+        </ul> -->
+        <span>px</span>
+      </div>
+    </div>
+    <div class="labalAndInput">
+      <label for="colNum">컬럼 수</label>
+      <div class="inputDev">
+        <input type="number" name="colNum" class="inputNum" id="colNum" placeholder="원하는 컬럼수">
+        <!-- <ul>
+          <li>px</li>
+        </ul> -->
+        <span>px</span>
+      </div>
+    </div>
+    <div class="labalAndInput">
+      <label for="width">넓이</label>
+      <div class="inputDev">
+        <input type="number" name="width" class="inputNum" id="width" placeholder="컬럼넓이">
+        <!-- <ul>
+          <li>px</li>
+        </ul> -->
+        <span>px</span>
+      </div>
+    </div>
+    <div class="labalAndInput">
+      <label for="margin">마진넓이</label>
+      <div class="inputDev">
+        <input type="number" name="margin" class="inputNum" id="margin" placeholder="마진넓이">
+        <!-- <ul>
+          <li>px</li>
+        </ul> -->
+        <span>px</span>
+      </div>
+    </div>
+    <input type="checkbox" name="outMargin" id="outMargin">
+    <label for="outMargin">바깥마진</label>
+    <button>계산</button>
+  </div>
+  <div id="ansser"></div>
+  <script src="./js/calcul.js"></script>
+</body>
+</html>
